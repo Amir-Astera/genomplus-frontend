@@ -1,0 +1,1079 @@
+.loginButton {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+  }
+.frameChild {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #fff;
+    width: 1440px;
+    height: 85px;
+}
+.genomLogo {
+    position: absolute;
+    top: 5px;
+    left: 0px;
+}
+.shoppingCartIcon {
+    width: 16px;
+    position: relative;
+    height: 15.6px;
+}
+.cart {
+    position: relative;
+    letter-spacing: 0.1em;
+    line-height: 122.52%;
+}
+.b {
+    position: relative;
+    letter-spacing: 0.1em;
+    line-height: 122.52%;
+    text-align: left;
+}
+.shoppingCartParent {
+    position: absolute;
+    top: 17px;
+    left: 0px;
+    height: 18px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 8px;
+}
+.groupChild {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 30px;
+    background-color: #008877;
+    width: 200px;
+    height: 52px;
+}
+.div {
+    position: absolute;
+    top: 13px;
+    left: 19px;
+    font-weight: 600;
+}
+.rectangleGroup {
+    position: absolute;
+    top: 0px;
+    left: 83px;
+    width: 200px;
+    height: 52px;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+    font-family: 'IBM Plex Sans';
+}
+.instanceParent {
+    position: absolute;
+    top: 0px;
+    left: 929px;
+    width: 283px;
+    height: 52px;
+    text-align: right;
+    font-size: 14px;
+    color: #08795f;
+    font-family: Inter;
+}
+.genomLogoParent {
+    position: absolute;
+    top: 19px;
+    left: 114px;
+    width: 1212px;
+    height: 52px;
+}
+.mapPinIcon {
+    width: 15px;
+    position: relative;
+    height: 18px;
+}
+.div1 {
+    position: relative;
+    line-height: 130%;
+}
+.contact {
+    position: absolute;
+    top: 36px;
+    left: 953px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 8px;
+    font-size: 12px;
+    color: #666;
+    font-family: Poppins;
+}
+.rectangleParent {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #000;
+    width: 1440px;
+    height: 85px;
+    overflow: hidden;
+    font-size: 32px;
+    color: #2e2e2e;
+}
+.b1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: inline-block;
+    white-space: pre-wrap;
+    width: 180px;
+    height: 21px;
+}
+.div3 {
+    position: absolute;
+    top: 0px;
+    left: 481px;
+    font-weight: 600;
+    display: inline-block;
+    width: 53px;
+    height: 21px;
+}
+.div4 {
+    position: absolute;
+    top: 0px;
+    left: 219px;
+    font-weight: 600;
+    display: inline-block;
+    width: 112px;
+    height: 21px;
+}
+.div5 {
+    position: absolute;
+    top: 0px;
+    left: 370px;
+    font-weight: 600;
+    display: inline-block;
+    width: 72px;
+    height: 21px;
+}
+.child {
+    position: absolute;
+    top: 24px;
+    left: 0px;
+    max-height: 100%;
+    width: 180px;
+}
+.div2 {
+    position: absolute;
+    top: 33px;
+    left: 359px;
+    width: 534px;
+    height: 24px;
+    font-size: 20px;
+    color: #08795f;
+}
+.groupItem {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: linear-gradient(90deg, rgba(215, 235, 230, 0.67) 15.5%, rgba(229, 218, 141, 0.25) 57%, rgba(67, 196, 180, 0.3) 76.5%);
+    width: 1440px;
+    height: 103px;
+}
+.div6 {
+    position: absolute;
+    top: 0px;
+    left: 24px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    width: 151px;
+    height: 14px;
+}
+.groupIcon {
+    position: absolute;
+    height: 100%;
+    width: 8%;
+    top: 0%;
+    right: 92%;
+    bottom: 0%;
+    left: 0%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.parent {
+    position: absolute;
+    top: 19px;
+    left: 792px;
+    width: 175px;
+    height: 14px;
+}
+.groupInner {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 50px;
+    background-color: #fff;
+    border: 1px solid rgba(186, 186, 186, 0.8);
+    box-sizing: border-box;
+    width: 760px;
+    height: 52px;
+}
+.div7 {
+    position: absolute;
+    top: 16px;
+    left: 20.62px;
+    display: inline-block;
+    width: 296.5px;
+    height: 17px;
+}
+.groupDiv {
+    position: absolute;
+    top: 1px;
+    left: 0px;
+    width: 758px;
+    height: 50px;
+}
+.rectangleDiv {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 0px 25px 25px 0px;
+    background-color: #08795f;
+    width: 66px;
+    height: 52px;
+}
+.bisearchIcon {
+    position: absolute;
+    top: 15px;
+    right: 22.51px;
+    width: 21.4px;
+    height: 21.4px;
+    overflow: hidden;
+    object-fit: contain;
+}
+.rectangleParent1 {
+    position: absolute;
+    top: 0px;
+    left: 693px;
+    width: 66px;
+    height: 52px;
+}
+.groupContainer {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 759px;
+    height: 52px;
+    color: rgba(0, 0, 0, 0.3);
+    font-family: 'IBM Plex Sans';
+}
+.groupParent {
+    position: absolute;
+    top: 25px;
+    left: 359px;
+    width: 967px;
+    height: 52px;
+}
+.rectangleContainer {
+    position: absolute;
+    top: 87px;
+    left: 0px;
+    width: 1440px;
+    height: 103px;
+    color: #192120;
+    font-family: Jost;
+}
+.groupChild1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    box-shadow: 0px 0px 28px 5px rgba(186, 186, 186, 0.25);
+    border-radius: 25px;
+    background-color: #fff;
+    width: 1000px;
+    height: 290px;
+}
+.div8 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-size: 32px;
+    font-weight: 600;
+    display: inline-block;
+    width: 291px;
+    height: 37px;
+}
+.groupChild2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #fff;
+    border: 1px solid rgba(186, 186, 186, 0.5);
+    box-sizing: border-box;
+    width: 350px;
+    height: 38px;
+}
+.div9 {
+    position: absolute;
+    top: 13px;
+    left: 12.03px;
+    display: flex;
+    align-items: center;
+    width: 301.9px;
+    height: 11px;
+    opacity: 0.65;
+}
+.rectangleParent3 {
+    position: absolute;
+    top: 77px;
+    left: 0px;
+    box-shadow: 0px 0px 5px rgba(186, 186, 186, 0.5);
+    width: 350px;
+    height: 38px;
+    color: #666;
+}
+.groupChild3 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 5px;
+    background-color: #08795f;
+    width: 91px;
+    height: 31px;
+}
+.div10 {
+    position: absolute;
+    top: 9px;
+    left: 22px;
+    line-height: 150%;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 47px;
+    height: 13px;
+}
+.rectangleParent4 {
+    position: absolute;
+    top: 145px;
+    left: 0px;
+    width: 91px;
+    height: 31px;
+    text-align: center;
+    color: #fff;
+}
+.groupChild4 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #08795f;
+    width: 14px;
+    height: 14px;
+}
+.span {
+    color: #08795f;
+}
+.div11 {
+    position: absolute;
+    top: 0px;
+    left: 25px;
+    display: inline-block;
+    width: 399px;
+    height: 14px;
+}
+.rectangleParent5 {
+    position: absolute;
+    top: 224px;
+    left: 2px;
+    width: 424px;
+    height: 14px;
+    font-family: Inter;
+}
+.group {
+    position: absolute;
+    top: 20px;
+    left: 40px;
+    width: 426px;
+    height: 238px;
+}
+.div12 {
+    position: absolute;
+    top: 3px;
+    left: 22.42px;
+    line-height: 150%;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    width: 348.6px;
+    height: 11px;
+}
+.div13 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-size: 24px;
+    line-height: 150%;
+    font-weight: 500;
+    color: #008877;
+    display: flex;
+    align-items: center;
+    width: 16.8px;
+}
+.container {
+    position: absolute;
+    top: 155px;
+    left: 0px;
+    width: 371px;
+    height: 17px;
+}
+.div14 {
+    position: absolute;
+    top: 3px;
+    left: 20px;
+    line-height: 150%;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    width: 311px;
+    height: 11px;
+}
+.div15 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-size: 24px;
+    line-height: 150%;
+    font-weight: 500;
+    color: #008877;
+}
+.parent1 {
+    position: absolute;
+    top: 118px;
+    left: 0px;
+    width: 331px;
+    height: 17px;
+}
+.div16 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    line-height: 150%;
+    font-weight: 500;
+}
+.div17 {
+    position: absolute;
+    top: 3px;
+    left: 20px;
+    font-size: 15px;
+    line-height: 150%;
+    font-weight: 500;
+    color: #08795f;
+    display: flex;
+    align-items: center;
+    width: 311px;
+    height: 11px;
+}
+.parent2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 331px;
+    height: 17px;
+}
+.div18 {
+    position: absolute;
+    top: 29px;
+    left: 20px;
+    font-size: 13px;
+    line-height: 150%;
+    color: #666;
+    white-space: pre-wrap;
+    display: flex;
+    align-items: center;
+    width: 336px;
+}
+.groupParent2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 356px;
+    height: 98px;
+    font-size: 24px;
+    color: #008877;
+}
+.groupParent1 {
+    position: absolute;
+    top: 57px;
+    left: 589px;
+    width: 371px;
+    height: 172px;
+    color: #08795f;
+}
+.rectangleParent2 {
+    position: absolute;
+    top: 297px;
+    left: 220px;
+    width: 1000px;
+    height: 290px;
+    font-size: 15px;
+}
+.groupChild5 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #e4fff9;
+    width: 1440px;
+    height: 471px;
+}
+.div19 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-size: 24px;
+    font-weight: 600;
+    display: inline-block;
+    width: 115px;
+    height: 25px;
+}
+.div20 {
+    position: absolute;
+    top: 64px;
+    left: 0px;
+    font-weight: 500;
+}
+.div21 {
+    position: absolute;
+    top: 91px;
+    left: 0px;
+    font-weight: 500;
+}
+.div22 {
+    position: absolute;
+    top: 118px;
+    left: 0px;
+    font-weight: 500;
+}
+.div23 {
+    position: absolute;
+    top: 145px;
+    left: 0px;
+    font-weight: 500;
+}
+.parent3 {
+    position: absolute;
+    top: 100px;
+    left: 342px;
+    width: 227px;
+    height: 166px;
+}
+.div24 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-size: 24px;
+    font-weight: 600;
+    display: inline-block;
+    width: 153px;
+    height: 25px;
+}
+.parent4 {
+    position: absolute;
+    top: 100px;
+    left: 707px;
+    width: 153px;
+    height: 166px;
+}
+.div29 {
+    position: absolute;
+    top: 9.74px;
+    left: 0px;
+    font-weight: 600;
+    display: inline-block;
+    width: 138px;
+    height: 25px;
+}
+.vectorIcon {
+    position: absolute;
+    height: 100%;
+    width: 22.22%;
+    top: 0%;
+    right: 77.78%;
+    bottom: 0%;
+    left: 0%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.groupChild6 {
+    position: absolute;
+    height: 100%;
+    width: 22.22%;
+    top: 0%;
+    right: 38.89%;
+    bottom: 0%;
+    left: 38.89%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.vectorIcon1 {
+    position: absolute;
+    height: 81.58%;
+    width: 22.22%;
+    top: 12.51%;
+    right: 0%;
+    bottom: 5.91%;
+    left: 77.78%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.vectorParent {
+    position: absolute;
+    height: 43.8%;
+    width: 52.17%;
+    top: 0%;
+    right: 47.83%;
+    bottom: 56.2%;
+    left: 0%;
+}
+.parent5 {
+    position: absolute;
+    top: 90.26px;
+    left: 114px;
+    width: 138px;
+    height: 34.7px;
+    font-size: 24px;
+    color: #08795f;
+}
+.div30 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-weight: 600;
+    display: inline-block;
+    width: 86px;
+    height: 25px;
+}
+.rectangleIcon {
+    position: absolute;
+    top: 64px;
+    left: 0px;
+    border-radius: 10px;
+    width: 366px;
+    height: 160px;
+    object-fit: cover;
+}
+.parent6 {
+    position: absolute;
+    top: 100px;
+    left: 960px;
+    width: 366px;
+    height: 224px;
+    font-size: 24px;
+}
+.groupChild7 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    max-height: 100%;
+    width: 1200.5px;
+}
+.div31 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: inline-block;
+    width: 984px;
+}
+.wrapper {
+    position: absolute;
+    top: 25px;
+    left: 108.5px;
+    width: 984px;
+    height: 20px;
+}
+.vectorGroup {
+    position: absolute;
+    top: 401px;
+    left: 119.5px;
+    width: 1200.5px;
+    height: 45px;
+    text-align: center;
+    font-size: 15px;
+}
+.rectangleParent6 {
+    position: absolute;
+    top: 694px;
+    left: 0px;
+    width: 1440px;
+    height: 471px;
+}
+.authorization {
+    width: 100%;
+    position: relative;
+    background-color: #fafafa;
+    height: 1165px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 16px;
+    color: #000;
+    font-family: 'IBM Plex Sans';
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+@media screen and (max-width: 1024px) {
+    /* Верхняя панель */
+    .frameChild {
+      width: 100%;
+    }
+    
+    .rectangleParent {
+      width: 100%;
+    }
+    
+    .genomLogoParent {
+      width: 90%;
+      left: 5%;
+    }
+    
+    .genomLogo {
+      font-size: 26px;
+      left: 0;
+    }
+    
+    .instanceParent {
+      width: auto;
+      right: 10px;
+    }
+    
+    .contact {
+      right: 240px;
+      left: auto;
+    }
+    
+    /* Навигация */
+    .div2 {
+      width: 90%;
+      left: 5%;
+    }
+    
+    /* Секция поиска */
+    .groupItem {
+      width: 100%;
+    }
+    
+    .groupParent {
+      width: 90%;
+      left: 5%;
+    }
+    
+    /* Основной контент */
+    .rectangleParent2 {
+      width: 90%;
+      left: 5%;
+    }
+    
+    .groupChild1 {
+      width: 100%;
+    }
+    
+    /* Футер */
+    .rectangleParent6 {
+      width: 100%;
+    }
+    
+    .groupChild5 {
+      width: 100%;
+    }
+    
+    .parent3 {
+      left: 5%;
+    }
+    
+    .parent4 {
+      left: 33%;
+    }
+    
+    .parent5 {
+      left: 5%;
+      top: 300px;
+    }
+    
+    .parent6 {
+      left: 33%;
+      top: 300px;
+    }
+    
+    .vectorGroup {
+      width: 90%;
+      left: 5%;
+    }
+    
+    .wrapper {
+      width: 90%;
+      left: 5%;
+    }
+    
+    .div31 {
+      width: 100%;
+    }
+  }
+  
+  /* Медиа-запросы для мобильных устройств (до 767px) */
+  @media screen and (max-width: 767px) {
+    /* Шапка */
+    .rectangleParent {
+      height: auto;
+      min-height: 120px;
+      padding-bottom: 10px;
+    }
+    
+    .genomLogoParent {
+      flex-direction: column;
+      align-items: flex-start;
+      height: auto;
+      padding-top: 10px;
+    }
+    
+    .genomLogo {
+      font-size: 22px;
+      position: relative;
+      margin-bottom: 15px;
+    }
+    
+    .instanceParent {
+      position: relative;
+      width: 100%;
+      height: auto;
+      left: 0;
+      top: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    
+    .shoppingCartParent {
+      position: relative;
+      width: 100%;
+      margin-bottom: 10px;
+      left: 0;
+      top: 0;
+      justify-content: flex-start;
+    }
+    
+    .rectangleGroup {
+      width: 100%;
+      position: relative;
+      left: 0;
+      top: 0;
+    }
+    
+    .groupChild {
+      width: 100%;
+      max-width: 200px;
+    }
+    
+    .contact {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      left: auto;
+    }
+    
+    /* Навигация */
+    .div2 {
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 10px 0;
+      position: relative;
+      left: 0;
+      width: 100%;
+    }
+    
+    .b1, .div3, .div4, .div5 {
+      position: relative;
+      margin-bottom: 10px;
+      width: auto;
+      left: 0;
+      top: 0;
+      text-align: center;
+    }
+    
+    .child {
+      display: none;
+    }
+    
+    /* Секция поиска */
+    .rectangleContainer {
+      height: auto;
+      padding: 15px 0;
+    }
+    
+    .groupParent {
+      flex-direction: column;
+      height: auto;
+    }
+    
+    .parent {
+      width: 100%;
+      text-align: center;
+      position: relative;
+      left: 0;
+      margin-bottom: 15px;
+    }
+    
+    .groupDiv {
+      width: 100%;
+      position: relative;
+    }
+    
+    .groupInner {
+      width: 100%;
+    }
+    
+    .groupContainer {
+      width: 100%;
+    }
+    
+    /* Основной контент */
+    .rectangleParent2 {
+      height: auto;
+      position: relative;
+      left: 0;
+      margin: 20px auto;
+    }
+    
+    .groupChild1 {
+      height: auto;
+      min-height: 450px;
+    }
+    
+    .group, .groupParent1 {
+      position: relative;
+      top: 0;
+      left: 0;
+      width: 90%;
+      margin: 0 auto;
+    }
+    
+    .groupParent1 {
+      margin-top: 30px;
+    }
+    
+    .div8 {
+      font-size: 24px;
+      margin-bottom: 20px;
+      text-align: center;
+      width: 100%;
+    }
+    
+    .rectangleParent3 {
+      width: 100%;
+      position: relative;
+      left: 0;
+      margin-bottom: 20px;
+    }
+    
+    .groupChild2, .div9 {
+      width: 100%;
+    }
+    
+    .rectangleParent4 {
+      margin: 0 auto;
+      position: relative;
+      left: 0;
+      width: 120px;
+    }
+    
+    .groupChild3 {
+        width: 120px;
+      }
+      
+      .div10 {
+        width: 100%;
+      }
+      
+    /* FAQ секция */
+    .container, .parent1, .groupParent2 {
+      width: 100%;
+      position: relative;
+      left: 0;
+    }
+    
+    /* Футер */
+    .rectangleParent6 {
+      height: auto;
+      padding-bottom: 40px;
+    }
+    
+    .parent3, .parent4, .parent5, .parent6 {
+      position: relative;
+      width: 90%;
+      left: 5%;
+      top: auto;
+      margin-top: 30px;
+    }
+    
+    .parent3 {
+      margin-top: 40px;
+    }
+    
+    .vectorGroup {
+      position: relative;
+      width: 90%;
+      margin: 30px auto 0;
+      left: 5%;
+    }
+    
+    .wrapper {
+      width: 100%;
+      position: relative;
+      left: 0;
+    }
+    
+    .div31 {
+      font-size: 12px;
+    }
+    
+    .groupChild7 {
+      width: 100%;
+    }
+  }
+  
+  /* Мелкие мобильные экраны */
+  @media screen and (max-width: 480px) {
+    .rectangleParent3 {
+      max-width: 100%;
+    }
+    
+    .div9 {
+      font-size: 14px;
+    }
+    
+    .div12, .div14, .div17 {
+      font-size: 14px;
+    }
+    
+    .div18 {
+      font-size: 12px;
+    }
+    
+    .div19, .div24, .div29, .div30 {
+      font-size: 20px;
+    }
+    
+    .div20, .div21, .div22, .div23 {
+      font-size: 14px;
+    }
+  }
+
+  

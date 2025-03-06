@@ -1,0 +1,45 @@
+.popularCategories,
+.viewAll {
+  position: relative;
+  display: inline-block;
+}
+.popularCategories {
+  margin: 0;
+  width: 456px;
+  font-size: inherit;
+  line-height: 120%;
+  font-weight: 600;
+  font-family: inherit;
+}
+.viewAll {
+  width: 125px;
+  line-height: 150%;
+  font-weight: 500;
+}
+.groupIcon {
+  height: 12px;
+  width: 15px;
+  position: relative;
+}
+.button,
+.heading {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.button {
+  border-radius: var(--br-24xl);
+  justify-content: center;
+  gap: var(--gap-xs);
+  font-size: var(--body-medium-body-medium-500-size);
+  color: var(--branding-success);
+}
+.heading {
+  width: 1212px;
+  height: 73px;
+  justify-content: space-between;
+  text-align: left;
+  font-size: var(--heading-05-heading-05-600-size);
+  color: var(--gray-scale-gray-900);
+  font-family: var(--body-medium-body-medium-500);
+}

@@ -1,0 +1,871 @@
+.frameChild {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #fff;
+    width: 1440px;
+    height: 85px;
+}
+.genomLogo {
+    position: absolute;
+    top: 5px;
+    left: 0px;
+}
+.shoppingCartIcon {
+    width: 16px;
+    position: relative;
+    height: 15.6px;
+}
+.cart {
+    position: relative;
+    letter-spacing: 0.1em;
+    line-height: 122.52%;
+}
+.b {
+    position: relative;
+    letter-spacing: 0.1em;
+    line-height: 122.52%;
+    text-align: left;
+}
+.shoppingCartParent {
+    position: absolute;
+    top: 17px;
+    left: 0px;
+    height: 18px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 8px;
+}
+.groupChild {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 30px;
+    background-color: #008877;
+    width: 200px;
+    height: 52px;
+}
+.div {
+    position: absolute;
+    top: 13px;
+    left: 19px;
+    font-weight: 600;
+}
+.rectangleGroup {
+    position: absolute;
+    top: 0px;
+    left: 83px;
+    width: 200px;
+    height: 52px;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+    font-family: 'IBM Plex Sans';
+}
+.instanceParent {
+    position: absolute;
+    top: 0px;
+    left: 929px;
+    width: 283px;
+    height: 52px;
+    text-align: right;
+    font-size: 14px;
+    color: #08795f;
+    font-family: Inter;
+}
+.genomLogoParent {
+    position: absolute;
+    top: 19px;
+    left: 114px;
+    width: 1212px;
+    height: 52px;
+}
+.mapPinIcon {
+    width: 15px;
+    position: relative;
+    height: 18px;
+}
+.div1 {
+    position: relative;
+    line-height: 130%;
+}
+.contact {
+    position: absolute;
+    top: 36px;
+    left: 953px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 8px;
+    font-size: 12px;
+    color: #666;
+    font-family: Poppins;
+}
+.rectangleParent {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #000;
+    width: 1440px;
+    height: 85px;
+    overflow: hidden;
+    font-size: 32px;
+}
+.b1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: inline-block;
+    white-space: pre-wrap;
+    width: 180px;
+    height: 21px;
+}
+.div3 {
+    position: absolute;
+    top: 0px;
+    left: 481px;
+    font-weight: 600;
+    display: inline-block;
+    width: 53px;
+    height: 21px;
+}
+.div4 {
+    position: absolute;
+    top: 0px;
+    left: 219px;
+    font-weight: 600;
+    display: inline-block;
+    width: 112px;
+    height: 21px;
+}
+.div5 {
+    position: absolute;
+    top: 0px;
+    left: 370px;
+    font-weight: 600;
+    display: inline-block;
+    width: 72px;
+    height: 21px;
+}
+.child {
+    position: absolute;
+    top: 24px;
+    left: 0px;
+    max-height: 100%;
+    width: 180px;
+}
+.div2 {
+    position: absolute;
+    top: 33px;
+    left: 359px;
+    width: 534px;
+    height: 24px;
+    font-size: 20px;
+    color: #08795f;
+}
+.groupItem {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: linear-gradient(90deg, rgba(215, 235, 230, 0.67) 15.5%, rgba(229, 218, 141, 0.25) 57%, rgba(67, 196, 180, 0.3) 76.5%);
+    width: 1440px;
+    height: 103px;
+}
+.div6 {
+    position: absolute;
+    top: 0px;
+    left: 24px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    width: 151px;
+    height: 14px;
+}
+.groupIcon {
+    position: absolute;
+    height: 100%;
+    width: 8%;
+    top: 0%;
+    right: 92%;
+    bottom: 0%;
+    left: 0%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.parent {
+    position: absolute;
+    top: 19px;
+    left: 792px;
+    width: 175px;
+    height: 14px;
+}
+.groupInner {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 50px;
+    background-color: #fff;
+    border: 1px solid rgba(186, 186, 186, 0.8);
+    box-sizing: border-box;
+    width: 760px;
+    height: 52px;
+}
+.div7 {
+    position: absolute;
+    top: 16px;
+    left: 20.62px;
+    display: inline-block;
+    width: 296.5px;
+    height: 17px;
+}
+.groupDiv {
+    position: absolute;
+    top: 1px;
+    left: 0px;
+    width: 758px;
+    height: 50px;
+}
+.rectangleDiv {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 0px 25px 25px 0px;
+    background-color: #08795f;
+    width: 66px;
+    height: 52px;
+}
+.bisearchIcon {
+    position: absolute;
+    top: 15px;
+    right: 22.51px;
+    width: 21.4px;
+    height: 21.4px;
+    overflow: hidden;
+    object-fit: contain;
+}
+.rectangleParent1 {
+    position: absolute;
+    top: 0px;
+    left: 693px;
+    width: 66px;
+    height: 52px;
+}
+.groupContainer {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 759px;
+    height: 52px;
+    color: rgba(0, 0, 0, 0.3);
+    font-family: 'IBM Plex Sans';
+}
+.groupParent {
+    position: absolute;
+    top: 25px;
+    left: 359px;
+    width: 967px;
+    height: 52px;
+}
+.rectangleContainer {
+    position: absolute;
+    top: 87px;
+    left: 0px;
+    width: 1440px;
+    height: 103px;
+    color: #192120;
+    font-family: Jost;
+}
+.groupChild1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    box-shadow: 0px 0px 28px 5px rgba(186, 186, 186, 0.25);
+    border-radius: 25px;
+    background-color: #fff;
+    width: 1000px;
+    height: 346px;
+}
+.groupChild2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 5px;
+    background-color: #fff;
+    border: 1px solid rgba(186, 186, 186, 0.5);
+    box-sizing: border-box;
+    width: 287px;
+    height: 37px;
+}
+.div8 {
+    position: absolute;
+    top: 2px;
+    left: 19px;
+    display: flex;
+    align-items: center;
+    width: 3px;
+    height: 11px;
+    opacity: 0.65;
+}
+.div9 {
+    position: absolute;
+    top: 2px;
+    left: 45px;
+    display: flex;
+    align-items: center;
+    width: 3px;
+    height: 11px;
+    opacity: 0.65;
+}
+.div10 {
+    position: absolute;
+    top: 0px;
+    left: 24px;
+    display: flex;
+    align-items: center;
+    width: 21px;
+    height: 11px;
+    opacity: 0.65;
+}
+.div11 {
+    position: absolute;
+    top: 0px;
+    left: 49px;
+    display: flex;
+    align-items: center;
+    width: 14px;
+    height: 11px;
+    opacity: 0.65;
+}
+.div12 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    align-items: center;
+    width: 19px;
+    height: 11px;
+    opacity: 0.65;
+}
+.group {
+    position: absolute;
+    top: 4px;
+    left: 0px;
+    width: 63px;
+    height: 13px;
+}
+.icon {
+    width: 24px;
+    position: relative;
+    height: 24px;
+}
+.stateLayer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+}
+.container {
+    border-radius: 100px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.iconButton {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 18px;
+    height: 19px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.5;
+}
+.groupParent1 {
+    position: absolute;
+    top: 12px;
+    left: 13px;
+    width: 92px;
+    height: 19px;
+}
+.rectangleParent3 {
+    position: absolute;
+    top: 236px;
+    left: 40px;
+    width: 287px;
+    height: 37px;
+}
+.div13 {
+    position: absolute;
+    top: 16px;
+    left: 12.79px;
+    display: flex;
+    align-items: center;
+    width: 270.8px;
+    height: 11px;
+    opacity: 0.65;
+}
+.rectangleParent4 {
+    position: absolute;
+    top: 174px;
+    left: 40px;
+    width: 287px;
+    height: 37px;
+}
+.groupChild4 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 5px;
+    background-color: #fff;
+    border: 1px solid rgba(186, 186, 186, 0.5);
+    box-sizing: border-box;
+    width: 288px;
+    height: 37px;
+}
+.eMail {
+    position: absolute;
+    top: 13px;
+    left: 10.79px;
+    display: flex;
+    align-items: center;
+    width: 270.8px;
+    height: 11px;
+    opacity: 0.65;
+}
+.rectangleParent5 {
+    position: absolute;
+    top: 174px;
+    left: 356px;
+    width: 288px;
+    height: 37px;
+}
+.rectangleParent6 {
+    position: absolute;
+    top: 174px;
+    left: 673px;
+    width: 287px;
+    height: 37px;
+}
+.div15 {
+    position: absolute;
+    top: 73px;
+    left: 40px;
+    font-weight: 300;
+    color: #000;
+    display: inline-block;
+    width: 820px;
+    height: 16px;
+    opacity: 0.5;
+}
+.div16 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-weight: 600;
+    display: inline-block;
+    width: 291px;
+    height: 37px;
+}
+.wrapper {
+    position: absolute;
+    top: 21px;
+    left: 40px;
+    width: 291px;
+    height: 37px;
+    font-size: 32px;
+    color: #000;
+}
+.rectangleParent7 {
+    position: absolute;
+    top: 112px;
+    left: 356px;
+    width: 287px;
+    height: 37px;
+}
+.rectangleParent6 {
+    position: absolute;
+    top: 174px;
+    left: 673px;
+    width: 287px;
+    height: 37px;
+}
+.div18 {
+    position: absolute;
+    top: 13px;
+    left: 10.82px;
+    display: flex;
+    align-items: center;
+    width: 271.7px;
+    height: 11px;
+    opacity: 0.65;
+}
+.rectangleParent8 {
+    position: absolute;
+    top: 112px;
+    left: 673px;
+    width: 288px;
+    height: 37px;
+}
+.rectangleParent9 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 130px;
+    height: 31px;
+}
+.groupChild8 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 5px;
+    background-color: #08795f;
+    width: 130px;
+    height: 31px;
+}
+.radioButtons {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 19px;
+    height: 19px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.div20 {
+    position: absolute;
+    top: 3px;
+    left: 29px;
+    display: flex;
+    align-items: center;
+    width: 80px;
+    height: 13px;
+}
+.radioButtonsParent {
+    position: absolute;
+    top: 245px;
+    left: 381px;
+    width: 109px;
+    height: 19px;
+    font-size: 16px;
+    color: #000;
+}
+.radioButtonsGroup {
+    position: absolute;
+    top: 245px;
+    left: 510px;
+    width: 109px;
+    height: 19px;
+    font-size: 16px;
+    color: #000;
+}
+.groupChild9 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #08795f;
+    width: 14px;
+    height: 14px;
+}
+.div22 {
+    position: absolute;
+    top: 9px;
+    left: 18px;
+    line-height: 150%;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 94px;
+    height: 13px;
+}
+.rectangleParent10 {
+    position: absolute;
+    top: 8px;
+    left: 155px;
+    width: 424px;
+    height: 14px;
+    text-align: left;
+    color: #000;
+    font-family: Inter;
+}
+.groupChild10 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #08795f;
+    width: 14px;
+    height: 14px;
+}
+.span {
+    color: #08795f;
+}
+.div23 {
+    position: absolute;
+    top: 0px;
+    left: 25px;
+    display: inline-block;
+    width: 399px;
+    height: 14px;
+}
+.rectangleParent11 {
+    position: absolute;
+    top: 112px;
+    left: 40px;
+    width: 424px;
+    height: 14px;
+    text-align: left;
+    color: #000;
+    font-family: Inter;
+}
+.lineDiv {
+    position: absolute;
+    top: 286.5px;
+    left: 39.5px;
+    border-top: 1px solid rgba(186, 186, 186, 0.5);
+    box-sizing: border-box;
+    width: 921px;
+    height: 1px;
+}
+.groupParent2 {
+    position: absolute;
+    top: 301px;
+    left: 40px;
+    width: 579px;
+    height: 31px;
+    text-align: center;
+    color: #fff;
+}
+.rectangleParent2 {
+    position: absolute;
+    top: 190px;
+    left: 220px;
+    width: 1000px;
+    height: 346px;
+    font-size: 15px;
+    color: #666;
+}
+.footerChild {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #e4fff9;
+    width: 1440px;
+    height: 471px;
+}
+.div24 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-size: 24px;
+    font-weight: 600;
+    display: inline-block;
+    width: 115px;
+    height: 25px;
+}
+.div25 {
+    position: absolute;
+    top: 64px;
+    left: 0px;
+    font-weight: 500;
+}
+.div26 {
+    position: absolute;
+    top: 91px;
+    left: 0px;
+    font-weight: 500;
+}
+.div27 {
+    position: absolute;
+    top: 118px;
+    left: 0px;
+    font-weight: 500;
+}
+.div28 {
+    position: absolute;
+    top: 145px;
+    left: 0px;
+    font-weight: 500;
+}
+.parent1 {
+    position: absolute;
+    top: 100px;
+    left: 342px;
+    width: 227px;
+    height: 166px;
+}
+.div29 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-size: 24px;
+    font-weight: 600;
+    display: inline-block;
+    width: 153px;
+    height: 25px;
+}
+.parent2 {
+    position: absolute;
+    top: 100px;
+    left: 707px;
+    width: 153px;
+    height: 166px;
+}
+.div34 {
+    position: absolute;
+    top: 9.74px;
+    left: 0px;
+    font-weight: 600;
+    display: inline-block;
+    width: 138px;
+    height: 25px;
+}
+.vectorIcon {
+    position: absolute;
+    height: 100%;
+    width: 22.22%;
+    top: 0%;
+    right: 77.78%;
+    bottom: 0%;
+    left: 0%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.groupChild11 {
+    position: absolute;
+    height: 100%;
+    width: 22.22%;
+    top: 0%;
+    right: 38.89%;
+    bottom: 0%;
+    left: 38.89%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.vectorIcon1 {
+    position: absolute;
+    height: 81.58%;
+    width: 22.22%;
+    top: 12.51%;
+    right: 0%;
+    bottom: 5.91%;
+    left: 77.78%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.vectorParent {
+    position: absolute;
+    height: 43.8%;
+    width: 52.17%;
+    top: 0%;
+    right: 47.83%;
+    bottom: 56.2%;
+    left: 0%;
+}
+.parent3 {
+    position: absolute;
+    top: 90.26px;
+    left: 114px;
+    width: 138px;
+    height: 34.7px;
+    font-size: 24px;
+    color: #08795f;
+}
+.div35 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-weight: 600;
+    display: inline-block;
+    width: 86px;
+    height: 25px;
+}
+.rectangleIcon {
+    position: absolute;
+    top: 64px;
+    left: 0px;
+    border-radius: 10px;
+    width: 366px;
+    height: 160px;
+    object-fit: cover;
+}
+.parent4 {
+    position: absolute;
+    top: 100px;
+    left: 960px;
+    width: 366px;
+    height: 224px;
+    font-size: 24px;
+}
+.groupChild12 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    max-height: 100%;
+    width: 1200.5px;
+}
+.div36 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: inline-block;
+    width: 984px;
+}
+.frame {
+    position: absolute;
+    top: 25px;
+    left: 108.5px;
+    width: 984px;
+    height: 20px;
+}
+.vectorGroup {
+    position: absolute;
+    top: 401px;
+    left: 119.5px;
+    width: 1200.5px;
+    height: 45px;
+    text-align: center;
+    font-size: 15px;
+}
+.footer {
+    position: absolute;
+    top: 694px;
+    left: 0px;
+    width: 1440px;
+    height: 471px;
+    color: #000;
+}
+.registrationChild {
+    position: absolute;
+    top: 581.5px;
+    left: 259.5px;
+    border-top: 1px solid rgba(186, 186, 186, 0.5);
+    box-sizing: border-box;
+    width: 921px;
+    height: 1px;
+}
+.registration {
+    width: 100%;
+    position: relative;
+    background-color: #fafafa;
+    height: 1165px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 16px;
+    color: #2e2e2e;
+    font-family: 'IBM Plex Sans';
+}
+

@@ -1,0 +1,1024 @@
+/* Базовые стили и сброс */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.patient {
+  font-family: 'IBM Plex Sans', Arial, sans-serif;
+  color: #333;
+  background-color: #fafafa;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Загрузка и ошибки */
+.loadingContainer,
+.errorContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-size: 18px;
+  color: #333;
+}
+
+.errorContainer {
+  color: #d32f2f;
+}
+
+/* Хедер */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 0 40px;
+  height: 80px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  position: relative;
+}
+
+.logoContainer {
+  flex: 0 0 auto;
+}
+
+.logo {
+  font-size: 24px;
+  color: #333;
+  font-weight: bold;
+}
+
+.desktopNav {
+  display: flex;
+  gap: 30px;
+  margin-left: 40px;
+}
+
+.navLink {
+  color: #08795F;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+  transition: color 0.2s;
+}
+
+.navLink:hover {
+  color: #065b47;
+}
+
+.headerRight {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.locationContainer,
+.cartContainer {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: #666;
+  font-size: 14px;
+}
+
+.locationIcon,
+.cartIcon {
+  width: 16px;
+  height: 16px;
+}
+
+.cabinetButton {
+  background-color: #08795F;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  padding: 12px 20px;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.cabinetButton:hover {
+  background-color: #065b47;
+}
+
+.burgerMenu {
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 24px;
+  height: 18px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.burgerMenu span {
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: #08795F;
+}
+
+.mobileMenu {
+  display: none;
+  position: absolute;
+  top: 80px;
+  left: 0;
+  right: 0;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+}
+
+.mobileMenuItem {
+  display: block;
+  padding: 15px 20px;
+  color: #333;
+  font-weight: 500;
+  text-decoration: none;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.mobileMenuItem:last-child {
+  border-bottom: none;
+}
+
+/* Строка поиска */
+.searchContainer {
+  background: linear-gradient(90deg, rgba(215, 235, 230, 0.67) 15.5%, rgba(229, 218, 141, 0.25) 57%, rgba(67, 196, 180, 0.3) 76.5%);
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.searchWrapper {
+  display: flex;
+  flex: 1;
+  max-width: 760px;
+  position: relative;
+}
+
+.searchInput {
+  flex: 1;
+  height: 52px;
+  border-radius: 50px;
+  border: 1px solid rgba(186, 186, 186, 0.8);
+  padding: 0 20px;
+  font-size: 16px;
+  outline: none;
+}
+
+.searchButton {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 52px;
+  width: 66px;
+  background-color: #08795F;
+  border: none;
+  border-radius: 0 25px 25px 0;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchButton img {
+  width: 20px;
+  height: 20px;
+}
+
+.phoneContainer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: 40px;
+}
+
+.phoneIcon {
+  width: 20px;
+  height: 20px;
+}
+
+.phoneNumber {
+  font-weight: 500;
+  color: #192120;
+}
+
+/* Карточка пациента */
+.patientCard {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 30px;
+  background-color: white;
+  box-shadow: 0 0 28px 5px rgba(186, 186, 186, 0.25);
+  border-radius: 25px;
+}
+
+.patientInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.patientAvatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.patientAvatar img {
+  width: 30px;
+  height: 30px;
+}
+
+.patientName {
+  font-size: 20px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.patientDetails {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.detailItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.detailValue {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 12px;
+}
+
+.detailLabel {
+  font-weight: 500;
+  font-size: 15px;
+  color: #333;
+}
+
+.divider {
+  width: 100%;
+  height: 1px;
+  background-color: rgba(186, 186, 186, 0.5);
+  margin-bottom: 20px;
+}
+
+.bonusSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.bonusHeader {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.bonusIcon {
+  width: 24px;
+  height: 24px;
+}
+
+.bonusTitle {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.bonusAmount {
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.bonusValue {
+  color: #08795F;
+}
+
+.buttonContainer {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.editButton,
+.logoutButton {
+  background-color: #08795F;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 20px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.editButton:hover,
+.logoutButton:hover {
+  background-color: #065b47;
+}
+
+/* Навигация по разделам */
+.sectionsNav {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin: 30px 0;
+}
+
+.sectionButton {
+  background: none;
+  border: none;
+  color: #333;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+  position: relative;
+  padding: 5px 0;
+}
+
+.activeSection {
+  color: #08795F;
+}
+
+.activeSection::after {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #08795F;
+}
+
+/* Контент разделов */
+.sectionContent {
+  flex: 1;
+}
+
+.emptyResultsContainer {
+  max-width: 800px;
+  margin: 20px auto 40px;
+}
+
+.emptyResults {
+  background-color: white;
+  padding: 30px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+}
+
+/* Футер */
+.footer {
+  background-color: #e4fff9;
+  padding: 40px;
+  margin-top: auto;
+}
+
+.footerContent {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footerColumn {
+  flex: 1;
+  min-width: 200px;
+}
+
+.footerTitle {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.footerLinks {
+  list-style-type: none;
+}
+
+.footerLinks li {
+  margin-bottom: 10px;
+}
+
+.footerLinks a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.footerLinks a:hover {
+  color: #08795F;
+}
+
+.socialIcons {
+  display: flex;
+  gap: 15px;
+}
+
+.socialIcon {
+  display: block;
+  width: 24px;
+  height: 24px;
+}
+
+.mapContainer {
+  width: 100%;
+  height: 160px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.mapImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.copyright {
+  text-align: center;
+  padding-top: 40px;
+  margin-top: 40px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  font-size: 14px;
+  color: #666;
+}
+
+/* Адаптивность */
+@media (max-width: 1024px) {
+  .header {
+    padding: 0 20px;
+  }
+  
+  .desktopNav {
+    gap: 20px;
+  }
+  
+  .searchContainer {
+    padding: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .searchWrapper {
+    width: 100%;
+    order: 2;
+    margin-top: 15px;
+  }
+  
+  .phoneContainer {
+    margin-left: 0;
+    order: 1;
+  }
+  
+  .patientCard {
+    width: 90%;
+  }
+  
+  .patientDetails {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .footerContent {
+    justify-content: flex-start;
+  }
+  
+  .footerColumn {
+    flex-basis: calc(50% - 20px);
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    padding: 0 15px;
+    height: 60px;
+  }
+  
+  .desktopNav {
+    display: none;
+  }
+  
+  .burgerMenu {
+    display: flex;
+  }
+  
+  .mobileMenu {
+    display: block;
+  }
+  
+  .headerRight {
+    gap: 15px;
+  }
+  
+  .cabinetButton {
+    display: none;
+  }
+  
+  .searchContainer {
+    flex-direction: column;
+    gap: 15px;
+    padding: 15px;
+  }
+  
+  .phoneContainer {
+    width: 100%;
+    justify-content: center;
+  }
+  
+  .searchWrapper {
+    margin-top: 0;
+  }
+  
+  .searchInput,
+  .searchButton {
+    height: 46px;
+  }
+  
+  .patientCard {
+    padding: 20px;
+    border-radius: 15px;
+  }
+  
+  .patientDetails {
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .detailItem {
+    width: 100%;
+  }
+  
+  .sectionsNav {
+    overflow-x: auto;
+    justify-content: flex-start;
+    padding: 0 15px;
+    gap: 20px;
+  }
+  
+  .sectionButton {
+    font-size: 16px;
+    white-space: nowrap;
+  }
+  
+  .emptyResultsContainer {
+    width: 90%;
+  }
+  
+  .footer {
+    padding: 30px 15px;
+  }
+  
+  .footerContent {
+    gap: 30px;
+  }
+  
+  .footerColumn {
+    flex-basis: 100%;
+  }
+  
+  .copyright {
+    font-size: 12px;
+    padding-top: 30px;
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  .header {
+    padding: 0 10px;
+  }
+  
+  .logo {
+    font-size: 20px;
+  }
+  
+  .locationContainer,
+  .cartContainer {
+    font-size: 12px;
+  }
+  
+  .searchInput {
+    font-size: 14px;
+  }
+  
+  .patientName {
+    font-size: 18px;
+  }
+  
+  .bonusAmount {
+    font-size: 15px;
+  }
+  
+  .buttonContainer {
+    flex-direction: row-reverse;
+  }
+  
+  .editButton,
+  .logoutButton {
+    padding: 6px 15px;
+    font-size: 14px;
+  }
+}
+
+.resultsContainer {
+  max-width: 1100px;
+  margin: 0 auto 40px;
+  display: flex;
+  gap: 20px;
+}
+
+/* Контейнер списка заказов */
+.ordersListContainer {
+  flex: 0 0 480px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-height: 600px;
+  overflow-y: auto;
+}
+
+/* Карточка заказа */
+.orderCard {
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  padding: 20px 15px;
+  cursor: pointer;
+  border-left: 5px solid transparent;
+  transition: border-color 0.2s, background-color 0.2s;
+}
+
+.orderCard:hover {
+  background-color: #f9f9f9;
+}
+
+.selectedOrder {
+  border-left-color: #43C4B4;
+  background-color: #f5f5f5;
+}
+
+/* Шапка заказа */
+.orderHeader {
+  margin-bottom: 15px;
+}
+
+.orderNumberContainer {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.orderLabel {
+  font-size: 14px;
+  color: #666;
+}
+
+.orderNumber {
+  font-weight: 500;
+  color: #333;
+}
+
+.orderDates {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.orderDate {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.dateLabel {
+  font-size: 12px;
+  color: #666;
+}
+
+.dateValue {
+  font-size: 14px;
+  color: #333;
+}
+
+/* Детали заказа */
+.orderDetails {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.orderInfo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.infoLabel {
+  font-size: 14px;
+  color: #666;
+}
+
+.infoValue {
+  font-weight: 500;
+  color: #333;
+}
+
+/* Контейнер подробностей выбранного заказа */
+.orderDetailsContainer {
+  flex: 1;
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-height: 600px;
+  overflow-y: auto;
+}
+
+.orderDetailsHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.orderDetailsTitle {
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+}
+
+.downloadButton {
+  background-color: #08795F;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 15px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.downloadButton:hover {
+  background-color: #065b47;
+}
+
+/* Таблица анализов */
+.analysisTableContainer {
+  width: 100%;
+}
+
+.analysisTable {
+  width: 100%;
+  border-spacing: 0;
+}
+
+.analysisRow {
+  display: flex;
+  gap: 10px;
+  padding: 15px 10px;
+  background-color: #f9f9f9;
+  border-radius: 4px;
+  margin-bottom: 5px;
+}
+
+.analysisCode {
+  flex: 0 0 100px;
+  font-weight: 500;
+  color: #333;
+}
+
+.analysisName {
+  flex: 1;
+  color: #333;
+}
+
+.analysisPrice {
+  flex: 0 0 80px;
+  text-align: right;
+  font-weight: 500;
+  color: #333;
+}
+
+.resultRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px 30px;
+  padding: 10px 10px 20px 120px;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 20px;
+}
+
+.resultItem {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.resultLabel {
+  font-size: 12px;
+  color: #666;
+}
+
+.resultValue {
+  font-size: 14px;
+  font-weight: 500;
+  color: #333;
+}
+
+/* Состояния загрузки/ошибки для заказов */
+.loadingOrder,
+.errorOrder {
+  text-align: center;
+  padding: 20px;
+  color: #666;
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.errorOrder {
+  color: #d32f2f;
+}
+
+/* Адаптивные стили для мобильных устройств */
+@media (max-width: 1024px) {
+  .resultsContainer {
+    flex-direction: column;
+    padding: 0 15px;
+  }
+  
+  .ordersListContainer {
+    flex: 1;
+    width: 100%;
+    max-height: none;
+  }
+  
+  .orderDetailsContainer {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .orderDates {
+    flex-direction: column;
+  }
+  
+  .resultRow {
+    padding-left: 10px;
+  }
+  
+  .analysisRow {
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  .analysisCode, .analysisName, .analysisPrice {
+    flex: 1;
+    width: 100%;
+  }
+  
+  .analysisPrice {
+    text-align: left;
+  }
+}
+
+.loadingAnalysis,
+.errorAnalysis,
+.emptyAnalysis {
+  padding: 20px;
+  text-align: center;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+  margin-bottom: 15px;
+}
+
+.loadingAnalysis {
+  color: #666;
+}
+
+.errorAnalysis {
+  color: #d32f2f;
+}
+
+.emptyAnalysis {
+  color: #666;
+  font-style: italic;
+}
+
+/* Стили для компонента пагинации */
+.pagination {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  margin-top: 20px;
+}
+
+.paginationButton {
+  min-width: 32px;
+  height: 32px;
+  border: 1px solid #ddd;
+  background-color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  color: #333;
+}
+
+.paginationButton:hover {
+  background-color: #f5f5f5;
+}
+
+.paginationButton:disabled {
+  cursor: not-allowed;
+  color: #ccc;
+}
+
+.activePage {
+  background-color: #08795F;
+  color: white;
+  border-color: #08795F;
+}
+
+.activePage:hover {
+  background-color: #065b47;
+}
+
+/* Стили для статуса "В обработке" */
+.disclaimerText {
+  color: #f57c00;
+  font-weight: 500;
+  padding: 5px 10px;
+  border-radius: 4px;
+  background-color: #fff3e0;
+}
+
+/* Дополнительные стили для строк обработки */
+.processingRow {
+  display: flex;
+  padding: 10px 10px 20px 120px;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 20px;
+}
+
+.processingStatus {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.statusLabel {
+  font-size: 14px;
+  color: #666;
+}
+
+.statusValue {
+  font-size: 14px;
+  font-weight: 500;
+  color: #f57c00;
+  background-color: #fff3e0;
+  padding: 2px 8px;
+  border-radius: 4px;
+}
+
+/* Адаптивные стили */
+@media (max-width: 768px) {
+  .processingRow {
+    padding-left: 10px;
+  }
+  
+  .pagination {
+    flex-wrap: wrap;
+  }
+}

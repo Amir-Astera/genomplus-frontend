@@ -1,0 +1,28 @@
+.shoppingCartIcon {
+  height: 15.6px;
+  width: 16px;
+  position: relative;
+}
+.cart,
+.cart1 {
+  height: 17px;
+  position: relative;
+  letter-spacing: 0.1em;
+  line-height: 122.52%;
+  display: inline-block;
+}
+.cart1 {
+  text-align: left;
+}
+.shoppingCartParent {
+  height: 18px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  text-align: right;
+  font-size: var(--font-size-sm);
+  color: var(--color-seagreen);
+  font-family: var(--font-inter);
+}

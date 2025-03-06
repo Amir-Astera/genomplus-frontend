@@ -1,0 +1,112 @@
+/* Дополнительные стили для альтернативного отображения PDF */
+
+.pdfViewer {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+    width: 100%;
+    max-width: 500px;
+    padding: 30px;
+    text-align: center;
+  }
+  
+  .pdfViewerText {
+    margin: 20px 0;
+    color: #555;
+    line-height: 1.5;
+  }
+  
+  .pdfViewerButtons {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+  }
+  
+  .openButton {
+    background-color: #08795F;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 12px 20px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .openButton:hover {
+    background-color: #065b47;
+  }
+  
+  .downloadButton {
+    background-color: #f5f5f5;
+    color: #333;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 12px 20px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .downloadButton:hover {
+    background-color: #e5e5e5;
+  }
+  
+  .closeButton {
+    background: none;
+    border: none;
+    color: #666;
+    padding: 8px;
+    cursor: pointer;
+    text-decoration: underline;
+    transition: color 0.2s;
+  }
+  
+  .closeButton:hover {
+    color: #333;
+  }
+  
+  /* Состояние загрузки PDF */
+  .pdfLoading {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+    padding: 30px;
+    text-align: center;
+    color: #333;
+  }
+  
+  .pdfError {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+    padding: 30px;
+    text-align: center;
+    color: #d32f2f;
+  }
+  
+  /* Кнопка "Получить результат" с состоянием загрузки */
+  .downloadButton:disabled {
+    background-color: #f0f0f0;
+    color: #999;
+    cursor: not-allowed;
+  }
+  
+  /* Адаптивные стили */
+  @media (max-width: 768px) {
+    .pdfViewer {
+      max-width: 90%;
+      padding: 20px;
+    }
+    
+    .pdfViewerButtons {
+      gap: 10px;
+    }
+    
+    .openButton,
+    .downloadButton {
+      padding: 10px 15px;
+      font-size: 14px;
+    }
+  }
